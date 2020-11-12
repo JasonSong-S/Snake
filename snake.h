@@ -49,7 +49,7 @@ typedef struct _POINT
 }Point;
 
 SHOWNODE FOOD;  //食物
-SNAKE pSnakeHead, pSnaleTail;  //蛇节点指针
+SNAKE pSnakeHead, pSnakeTail;  //蛇节点指针
 
 // 初始化foodpool
 void initFoodPool();
@@ -73,7 +73,7 @@ void AddSNode(SNAKE psa);
 void DelSNode(void);
 
 //初始化snake链表
-void InitSnakke(int n);
+void InitSnake(int n);
 
 // 检测snake合法性
 int checkSnake(void);

@@ -83,8 +83,8 @@ void GetFood(void)
     }
     useFood(FoodPool[tmp].x, FoodPool[tmp].y);
     FoodPool[tmp].flag=1;
-    FOOD.x=FoodPool[tmp].x
-    FOOD.y=FoodPool[tmp].y
+    FOOD.x=FoodPool[tmp].x;
+    FOOD.y=FoodPool[tmp].y;
     return 1;
 }
 
@@ -110,7 +110,7 @@ void DelSNode(void)
 }
 
 //≥ı ºªØsnake¡¥±Ì
-void InitSnakke(int n)
+void InitSnake(int n)
 {
     int i=0;
     initFoodPool();

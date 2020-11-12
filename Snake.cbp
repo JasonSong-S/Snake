@@ -31,9 +31,30 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="JR_Cursor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="JR_Cursor.h" />
+		<Unit filename="JR_KeyBoard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="JR_KeyBoard.h" />
+		<Unit filename="JR_Random.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="JR_Random.h" />
+		<Unit filename="JR_timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="JR_timer.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="snake.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="snake.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

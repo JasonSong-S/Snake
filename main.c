@@ -118,7 +118,7 @@ void show(void)
 }
 
 // 开始新游戏
-vodi startGame(void)
+void startGame(void)
 {
     SNAKE ps;
     showBG();

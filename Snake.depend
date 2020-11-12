@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1605181348 source:d:\study\code\cpp\snake\jr_random.c
+	<time.h>
+	"JR_Random.h"
+
+1605180795 d:\study\code\cpp\snake\jr_random.h
+
+1605180491 source:d:\study\code\cpp\snake\jr_timer.c
+	"JR_timer.h"
+
+1605179958 d:\study\code\cpp\snake\jr_timer.h
+
+1605184433 source:d:\study\code\cpp\snake\jr_keyboard.c
+	<conio.h>
+	"JR_KeyBoard.h"
+
+1605181980 d:\study\code\cpp\snake\jr_keyboard.h
+
+1605184588 source:d:\study\code\cpp\snake\jr_cursor.c
+	"JR_Cursor.h"
+	<windows.h>
+
+1605184352 d:\study\code\cpp\snake\jr_cursor.h
+
+1605185528 source:d:\study\code\cpp\snake\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"main.h"
+
+1605184770 d:\study\code\cpp\snake\main.h
+	"JR_timer.h"
+	"JR_Random.h"
+	"JR_Cursor.h"
+	"JR_KeyBoard.h"
+	"snake.h"
+
+1605185448 d:\study\code\cpp\snake\snake.h
+	<stdlib.h>
+	"main.h"
+
+1605185564 source:d:\study\code\cpp\snake\snake.c
+	"snake.h"
+	<string.h>
+

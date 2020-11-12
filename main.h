@@ -37,7 +37,7 @@ typedef enum _STATUS
 // ·½Ïò
 typedef enum _DIRECTION
 {
-    UP, DOWM, LEFT, RIGHT
+    UP, DOWN, LEFT, RIGHT
 }DIRECTION;
 
 #endif
